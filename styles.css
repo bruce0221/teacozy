@@ -1,0 +1,106 @@
+body { 
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+}
+
+
+/* Hearder  */
+.header { 
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.logo_box { 
+    align-content: center;
+}
+
+.header #logo { 
+    height: 50px ;
+    margin-left: 10px;
+}
+
+/* navigation box*/
+
+.navigation { 
+    display: flex;
+}
+
+.navigation p { 
+    text-decoration: underline;
+    margin-right: 30px;
+    
+}
+
+.navigation p:hover { 
+    color: aqua;
+    cursor: pointer;
+}
+
+
+
+/* Our mission box*/
+
+.ourmission { 
+    display: flex;
+    justify-content: center;
+
+}
+.message { 
+    background-image: url("img/img-mission-background.webp");
+    height: 700px;        /* set the height of img*/
+    max-width: 1200px  ;    /*set the width of img*/
+    display: flex;         /*make h2 & h4 become flex item*/
+    flex-direction: column;
+    flex-grow:  1;
+    align-items: center;
+    justify-content: center;     
+}
+.message h2,h4 { 
+    background-color: black;
+    width: 100% ;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+
+} 
+
+
+
+
+/*Tea of the Month*/
+.tea_month { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px ;
+    margin: 80px auto;
+}
+
+.tea_month h2,h4  { 
+    margin: 0 auto;
+    padding: 10px ;
+
+}
+
+
+.tea_month img { 
+    max-width: 300px;  /* set the width of all images in tea of month */
+    max-height: 200px  ; /* set the height of all images in tea of month */
+    padding: 10px ;
+}
+
+
+.tea { 
+    display: inline-flex;
+    max-width: 1000px ;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
