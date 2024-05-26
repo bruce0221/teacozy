@@ -4,6 +4,7 @@ body {
     font-size: 22px;
     color: seashell;
     opacity: 0.9;
+    text-align: center;
 }
 
 
@@ -72,14 +73,12 @@ body {
 } 
 
 
-
-
 /*Tea of the Month*/
 .tea_month { 
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 1000px ;
+    max-width: 1500px ;
     margin: 80px auto;
 }
 
@@ -90,7 +89,7 @@ body {
 }
 
 
-.tea_month img { 
+.tea_month figure img { 
     max-width: 300px;  /* set the width of all images in tea of month */
     max-height: 200px  ; /* set the height of all images in tea of month */
     padding: 10px ;
@@ -99,8 +98,75 @@ body {
 
 .tea { 
     display: inline-flex;
-    max-width: 1000px ;
+    max-width: 3000px ;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+figcaption { 
+    text-align: center;
+    padding: 0;
+}
+
+
+
+
+
+/* Location */
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.location_info { 
+    height: 500px ;
+    width: 1200px ; 
+    background-image: url("img/img-locations-background.webp");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+
+
+
+}
+
+.location_info h2 { 
+    margin-bottom: 0;
+}
+
+
+.location_box { 
+    display: inline-flex;
+    
+}
+
+.box { 
+    margin: 15px 20px 0 20px ;
+    width: 300px ;
+    background-color: black;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+
+/*Contact*/
+
+.contact{ 
+    height: 200px;
+}
+
+
+
+
+
+/* Copy right*/
+.copyright h5 { 
+    text-align: left;
+}
